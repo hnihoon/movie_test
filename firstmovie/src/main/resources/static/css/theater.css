@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+.theater_wrap{
+    width: 100%;
+}
+.theater_wrap h3{
+    font-size: 30px;
+    padding: 1%;
+}
+.theater_box{
+    border: 5px solid #000;
+    border-radius: 10px;
+}
+.theater_btn{
+    display: flex;
+    justify-content: space-between;
+}
+.theater_btn li{
+    width: 15%;
+    border: 1px solid #000;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.theater_cont{
+    display: flex;
+    
+}
+.theater_cont li{
+    width: 100px;
+    height: 500px;
+    font-size: 20px;
+    text-align: center;
+}

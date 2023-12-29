@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+ "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!-- movie.xml -->
+
+
+<mapper namespace="theater">
+	
+<!-- 	<select id="branchlist" resultType="kr.co.fmos.movie.MovieDTO">
+		SELECT branch_id, region_id, branch_name, branch_address, branch_number, branch_seats
+		FROM theater_branch
+	</select>
+ -->
+ 
+ 
+	<select id="regionlist" resultType="kr.co.fmos.theater.TheaterregionDTO">
+		SELECT region_id, region
+		FROM region
+		WHERE region_id = #{region_id}
+	</select>
+</mapper>
