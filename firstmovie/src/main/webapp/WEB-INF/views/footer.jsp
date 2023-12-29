@@ -2,7 +2,7 @@
     pageEncoding="UTF-8"%>
     
 <!-- footer -->
-
+테스트2
     <footer>
         <div class="footer_wrap">
             <p class="tooter_logo"><img src="/images/footer/footerlogo.png" alt=""></p>
